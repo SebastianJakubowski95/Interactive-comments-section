@@ -1,0 +1,19 @@
+.main {
+  width: 2rem;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.main > div {
+  height: 100%;
+  width: calc((3 / 16) * 1rem);
+  border-radius: 1rem;
+  background-color: var(--primary-violet);
+  opacity: 0.75;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 1rem;
+  }
+}

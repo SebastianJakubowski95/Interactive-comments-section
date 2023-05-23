@@ -1,0 +1,23 @@
+.comment-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  width: 100% !important;
+}
+
+.replys-section {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.replys-section > div:nth-child(2) {
+  width: 100% !important;
+}
+
+.comment-set li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

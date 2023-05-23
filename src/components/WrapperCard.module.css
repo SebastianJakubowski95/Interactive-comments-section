@@ -1,0 +1,55 @@
+.comment,
+.modal-warning {
+  box-shadow: var(--card-shadow);
+  background-color: var(--white);
+  border-radius: calc((6 / 16) * 1rem);
+  width: fit-content;
+}
+.comment {
+  padding: 1rem calc((20 / 16) * 1rem);
+  width: auto;
+}
+
+.modal-warning {
+  padding: 2rem;
+  width: 70%;
+  max-width: calc((350 / 16) * 1rem);
+}
+
+.comment-set {
+  background-color: #f6f6fb;
+  border-radius: calc(20 / 16) * 1rem;
+  padding: calc((12 / 16) * 1rem) calc((12 / 16) * 1rem);
+}
+
+.color-animation {
+  animation-name: color;
+  animation-duration: 4000ms;
+  animation-timing-function: cubic-bezier(0.37, 0, 0.63, 1);
+}
+@keyframes color {
+  0% {
+    scale: 1;
+    background-color: #e3f9e4;
+  }
+  7% {
+    scale: 1.01;
+  }
+  25% {
+    scale: 1;
+  }
+  50% {
+    background-color: #e3f9e4;
+  }
+  100% {
+    background-color: var(--white);
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-warning {
+    padding: 2rem 1.25rem;
+    width: 70%;
+    max-width: calc((280 / 16) * 1rem);
+  }
+}

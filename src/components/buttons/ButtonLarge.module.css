@@ -1,0 +1,36 @@
+.btn {
+  border-radius: calc((6 / 16) * 1rem);
+  transition: var(--transition-button-1);
+}
+
+.btn p {
+  font-size: 1rem;
+  font-weight: var(--semi-bold);
+  color: var(--white);
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    opacity: 0.75;
+  }
+}
+
+.regular {
+  background: var(--primary-blue);
+  width: calc((106 / 16) * 1rem);
+  height: calc((38 / 16) * 1rem);
+}
+.delete {
+  background: var(--red);
+  width: calc((138 / 16) * 1rem);
+  height: calc((46 / 16) * 1rem);
+}
+.cancel {
+  background: #202a3f;
+  width: calc((138 / 16) * 1rem);
+  height: calc((46 / 16) * 1rem);
+}
+
+.btn:active {
+  scale: 0.975;
+}

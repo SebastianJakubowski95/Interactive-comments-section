@@ -1,0 +1,47 @@
+.main {
+  width: calc((35 / 16) * 1rem);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc((4 / 16) * 1rem) calc((2 / 16) * 1rem);
+  background-color: #6d499b05;
+}
+.main p {
+  color: var(--primary-blue);
+}
+.main > button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 1px solid #6d499b00;
+}
+.voted-button {
+  border-color: #6d499b50 !important;
+}
+.voted-para {
+  animation-name: para;
+  animation-duration: 300ms;
+}
+@keyframes para {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: calc((94 / 16) * 1rem);
+    height: calc((39 / 16) * 1rem);
+    flex-direction: row-reverse;
+  }
+}

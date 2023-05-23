@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: calc((4 / 16) * 1rem) calc((6 / 16) * 1rem);
+  border: 1px solid #ffffff00;
+  border-radius: calc((4 / 16) * 1rem);
+  transition: var(--transition-button-1);
+}
+.reply p,
+.edit p {
+  color: var(--primary-blue);
+}
+.delete p {
+  color: var(--red);
+}
+
+@media (hover: hover) {
+  .btn.edit:hover,
+  .btn.reply:hover {
+    background-color: #5357b610;
+  }
+
+  .btn.delete:hover {
+    background-color: #ed636810;
+  }
+}
+
+.active {
+  background-color: #5357b610;
+  border-color: #5357b6;
+  scale: 0.9;
+}
+
+.btn.delete:active {
+  background-color: #ed636810;
+  border-color: #ed6368;
+  scale: 0.95;
+}
