@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Interactive-comments-section/static/css/main.d132c801.css",
+    "main.js": "/Interactive-comments-section/static/js/main.4619480f.js",
+    "index.html": "/Interactive-comments-section/index.html",
+    "static/media/icon-plus.svg": "/Interactive-comments-section/static/media/icon-plus.0037a825a550965779412c2890bd328b.svg",
+    "static/media/icon-edit.svg": "/Interactive-comments-section/static/media/icon-edit.b0c7f9ebaec367bd3ae2539df8b55ff9.svg",
+    "static/media/icon-reply.svg": "/Interactive-comments-section/static/media/icon-reply.bfb4589d45cd96abd45e3b82f7e7bbc6.svg",
+    "static/media/icon-minus.svg": "/Interactive-comments-section/static/media/icon-minus.4aa6933cb1575b3c54fa67d84a61efaf.svg",
+    "static/media/icon-delete.svg": "/Interactive-comments-section/static/media/icon-delete.86cedbf2e37529f9c8f1f744254059b0.svg",
+    "main.d132c801.css.map": "/Interactive-comments-section/static/css/main.d132c801.css.map",
+    "main.4619480f.js.map": "/Interactive-comments-section/static/js/main.4619480f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d132c801.css",
+    "static/js/main.4619480f.js"
+  ]
+}
